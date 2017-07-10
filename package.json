@@ -1,0 +1,22 @@
+{
+  "name": "iframe",
+  "version": "1.0.0",
+  "description": "thias",
+  "main": "iframe.js",
+  "dependencies": {
+    "eslint": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gfreedoms/"
+  },
+  "keywords": [
+    "this"
+  ],
+  "author": "freedom",
+  "license": "MIT"
+}
