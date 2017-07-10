@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "dojo": true,
+        "devel":true
+    },
+    "laxbreak":true,
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "globals":{
+            "mendix":false,
+            "mx":false,
+            "logger":false
+        },
+    "rules": {
+        
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "indent":["error",4],
+        "curly": "error", 
+        "guard-for-in":"error",
+        "no-use-before-define":"error",
+        "new-cap":"error",
+        "quotes":["error", "double"],
+        "eqeqeq":"error"
+    }
+    
+}
